@@ -147,17 +147,17 @@ jQuery("#layerslider").layerSlider({
 <header class="header2 sticky">
 	<div class="container">
 		<div class="logo">
-			<a href="#" title=""><img src="<?php echo base_url();?>assets/images/tpalogo.png" width="70px" alt="Logo" /><h1><i></i>TPA</h1></a>
+			<a href="#" title=""><img src="<?php echo base_url();?>photos/logo.png" width="63px" alt="Logo" /><h1>D<i></i>c-Saika</h1></a>
 		</div><!-- Logo -->
 		<a class="header-btn" href="#" title="">DONATE NOW</a>
 		<nav class="menu">
 			<ul id="menu-navigation">
-					<li class="active"><a href="home"<i class="icon-circle"></i>Home</a></li>
-					<li><a href="<?php echo base_url();?>about"><i class="fa fa-circle"></i>About</a></li>
-					<li><a href="<?php echo base_url();?>projectlist"><i class="fa fa-circle"></i>Projects</a></li>
-					<li><a href="<?php echo base_url();?>blog"><i class="fa fa-circle"></i>Blog</a></li>
-					<li><a href="<?php echo base_url();?>gallery"><i class="fa fa-circle"></i>Gallery</a></li>
-					<li><a href="<?php echo base_url();?>contact"><i class="fa fa-circle"></i>Contact Us</a></li>
+					<li class="active"><a href="<?php echo base_url();?>home">Home</a></li>
+					<li><a href="<?php echo base_url();?>about">About</a></li>
+					<li><a href="<?php echo base_url();?>projectlist">Projects</a></li>
+					<li><a href="<?php echo base_url();?>blog">Blog</a></li>
+					<li><a href="<?php echo base_url();?>gallery">Gallery</a></li>
+					<li><a href="<?php echo base_url();?>contact">Contact Us</a></li>
 					</ul><!-- Drop Down -->
 				</li>
 			</ul>
@@ -185,9 +185,9 @@ jQuery("#layerslider").layerSlider({
 			</div>
 		</div>
 	</div>
-	<div class="responsive-logomenu">
+	<div class="responsive-logomenu logo">
 		<div class="container">
-			<a href="index.html" title=""><img src="<?php echo base_url();?>assets/images/responsivelogo.png" width="40px" alt="Logo" /></a>
+			<a href="index.html" title=""><img src="<?php echo base_url();?>photos/logo.png" width="63px" alt="Logo" /><h1>D<i></i>c-Saika</h1></a>
 			<span class="menu-btn"><i class="fa fa-th-list"></i></span>
 		</div>
 	</div>

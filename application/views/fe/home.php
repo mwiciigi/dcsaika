@@ -7,7 +7,7 @@
 					<div id="layerslider" style="width: 100%; height: 440px; margin: 0px auto; ">
 
 						<div class="ls-slide" data-ls="transition3d:53; timeshift:-1000;">
-							<img src="<?php echo base_url();?>assets/images/slider1.jpg" class="ls-bg" alt="Slide background">
+							<img src="<?php echo base_url();?>photos/dc2.jpg" class="ls-bg" alt="Slide background">
 								<h3 class="ls-l slide1" style="top: 103px; left:48px; background: url(<?php echo base_url();?>assets/images/slider1-img2.png) no-repeat scroll 0 0 / auto 100% transparent; font-family:roboto; font-size:34px; font-weight:bold; color:#4c4c4c; line-height:56px; padding:0 60px 0 60px; ; border-radius:3px;"
 									data-ls="offsetxin:0;offsetyin:bottom;durationin:1000;easingin:easeOutQuad;fadein:false;rotatein:-10;offsetxout:0;durationout:1500;" ><i>PARTNER</i> <span>WITH US</span></h3>
 								<span class="ls-l slide1"	style="top: 170px; left:48px; font-family:roboto; font-size:24px; font-weight:600; color:#000; padding:10px 20px 10px 50px; background:rgba(255,255,255,0.9); border-radius:4px 0 0px 4px; border-left:2px solid #93b631; position:relative; line-height:22px; float:left;" data-ls="offsetxin:0;offsetyin:top;durationin:1000;easingin:easeOutQuad;fadein:false;rotatein:10;offsetxout:0;durationout:1500;">
@@ -32,10 +32,10 @@
 			</div>
 			<div class="col-md-4">
 				<div class="fancy-donation">
-					<img src="<?php echo base_url();?>assets/images/fancy-donation.jpg" alt="" />
+					<img src="<?php echo base_url();?>photos/church.jpg" alt="" />
 					<div class="donation-appeal">
-						<h6>TAKE ACTION</h6>
-						<h3>SAVE A <span>GIRL FROM EARLY MARRIAGE </span></h3>
+						<h3>BUILDER's CORNER</h3>
+						<h3>Become <span style="color:#fff">A Partner in Building the Temple  </span></h3>
 						<p>By 2030, the teen birth rate in Kenya will decrease by 50%.</p>
 						<a href="#" data-toggle="modal" data-target="#myModal" title="">Take Action</a>
 					</div>

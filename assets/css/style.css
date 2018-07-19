@@ -246,7 +246,7 @@ header {
 }
 #menu-navigation li a {
     float:left;
-    padding:36px 22px;
+    padding:36px 15px;
     font-family: 'Lato', sans-serif;
     font-size:14px;
     font-weight:400;
@@ -9118,7 +9118,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 header.header2 #menu-navigation li a{
     color: #666666;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 header.header2 #menu-navigation li a:hover{
@@ -9183,7 +9183,7 @@ header.header2 #menu-navigation li ul li a {
 .header-btn:hover{background:#333}
 #top-bar.modern li {
     color: #fdfdfd;
-    font-size: 12px;
+    font-size: 14px;
 }
 header.header2.stick{
     top: 0;
@@ -9849,7 +9849,7 @@ header.header3.stick #menu-navigation > li > a {
     background: none repeat scroll 0 0 #000000;
     content: "";
     height: 100%;
-    opacity: 0.9;
+    opacity: 0.8;
     width: 100%;
     position: absolute;
     left: 0;
@@ -9865,11 +9865,11 @@ header.header3.stick #menu-navigation > li > a {
 }
 .donation-appeal {
     float: left;
-    margin-left: 20%;
-    padding-top: 60px;
+    margin-left: 15%;
+    padding-top: 40px;
     position: relative;
     text-align: center;
-    width: 60%;
+    width: 70%;
     z-index: 1;
 }
 .donation-appeal > h3 {
@@ -9904,7 +9904,7 @@ header.header3.stick #menu-navigation > li > a {
     color: #cdcdcd;
     display: inline-block;
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 26px;
     margin: 0;
 }
@@ -10026,7 +10026,7 @@ header.header3.stick #menu-navigation > li > a {
     width: 100%;
     color: #888888;
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin: 10px 0;
     letter-spacing: 0.9px;
     word-spacing: 1px;
@@ -11030,7 +11030,11 @@ footer.light-footer .contact-details li p{color: #737373}
     padding: 25px 0;
     width: 100%;
 }
-.responsive-logomenu a {float: left;}
+.responsive-logomenu a {
+  float: left;
+  padding-top: 13px;
+
+}
 .menu-btn {
     background: #1f1f1f none repeat scroll 0 0;
     -webkit-border-radius: 2px;
