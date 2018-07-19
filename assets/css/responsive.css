@@ -1,6 +1,6 @@
 @media (max-width: 1200px){
 #menu-navigation li a{
-	padding:36px 17px 32px;
+	padding:36px 9px 32px;
 }
 .event{
 	width:220px;
@@ -201,7 +201,7 @@ header,
 .message-form > p{
 	margin-bottom:10px;
 }
-.message-form form input.form-control, 
+.message-form form input.form-control,
 .message-form form input.form-control:focus{
 	height:28px;
 }
@@ -327,11 +327,11 @@ footer .col-md-3 {
 .gallery-tabs li{
 	margin:0;
 }
-.gallery-tabs li a, 
-.gallery-tabs li a:focus, 
-.gallery-tabs li a:hover, 
-.gallery-tabs li.active a, 
-.gallery-tabs li.active a:hover, 
+.gallery-tabs li a,
+.gallery-tabs li a:focus,
+.gallery-tabs li a:hover,
+.gallery-tabs li.active a,
+.gallery-tabs li.active a:hover,
 .gallery-tabs li.active a:focus{
 	padding:5px;
 }
@@ -374,7 +374,7 @@ footer .col-md-3 {
 .recent-event.previous-event {
     width: 345px;
 }
-.recent-event.previous-event > ul, 
+.recent-event.previous-event > ul,
 .recent-event.previous-event > h4 {
     margin-left:20px;
 }
@@ -538,7 +538,7 @@ footer .col-md-3 {
 .donationpost-detail {padding: 0 30px 0 50px;}
 .donationpost-detail > h4 {font-size: 25px;}
 .money-donating > .row > div {float: left;width: 50%;}
-.images-gallery > .row > div, 
+.images-gallery > .row > div,
 .donation-sec > .row > div {float: left;width: 50%;}
 .single-video {width: 100%;}
 .scroll-sec {position: relative;width: 100%;}
@@ -577,13 +577,13 @@ header,
 	display:none;
 }
 
-.message-form form input.form-control, 
+.message-form form input.form-control,
 .message-form form input.form-control:focus {
     border-radius: 2px 2px 2px 2px;
     font-size: 10px;
     height: 21px;
 }
-.message-form form textarea.form-control, 
+.message-form form textarea.form-control,
 .message-form form textarea.form-control:focus {
     border-radius: 2px 2px 2px 2px;
     font-size: 10px;
@@ -642,7 +642,7 @@ section .container, .inner-page .container {
     -o-transform:translateX(0) rotate(0deg);
 	transform:translateX(0) rotate(0deg);
     width: 100%;
-	
+
 	opacity:0;
 }
 .cause-tabber li a:hover:before,
@@ -901,7 +901,7 @@ footer .container {
 .welcome-box span{
 	border-radius:0 0 5px 5px;
 	margin-right:-100px;
-	right:50%;	
+	right:50%;
 	top:0;
 	margin-top:0;
 }
@@ -1229,7 +1229,7 @@ header{
 .featured-bottomleftcap {bottom: 30px;left: 30px;position: relative;}
 .donation-carousel-post > .row > div,
 .money-donating > .row > div {float: left;width: 50%;}
-.images-gallery > .row > div, 
+.images-gallery > .row > div,
 .donation-sec > .row > div {float: left;width: 50%;}
 .single-video {width: 100%;}
 .scroll-sec {position: relative;width: 100%;}
@@ -1426,12 +1426,12 @@ header{
 .progressbar > .progress {float: left;margin-top: 10px;width: 100%;}
 .progressbar > i:last-child {float: left;margin-top: 10px;text-align: center;width: 100%;}
 .progressbar {float: left;width: 100%;}
-.donation-carousel-post > .row > div, 
+.donation-carousel-post > .row > div,
 .money-donating > .row > div {width: 100%;}
 .donationpost-detail {padding: 0 30px 0 50px;}
 .sec-heading5 {float: left;width: 100%;}
 .sec-heading5 > h2 {font-size: 25px;}
-.images-gallery > .row > div, 
+.images-gallery > .row > div,
 .donation-sec > .row > div {width: 100%;}
 .gallery-content > h2 {font-size: 25px;}
 .page-title2 {padding-top: 90px;}
