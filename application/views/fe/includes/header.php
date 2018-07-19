@@ -39,7 +39,7 @@
 <script src="<?php echo base_url();?>assets/js/jquery.customSelect.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/jquery.isotope.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/jquery.jigowatt.js"></script>
-<script src="<?php echo base_url();?>assets/js/jquery.mixitup.min.js"></script>]<script src="<?php echo base_url();?>"></script>
+<script src="<?php echo base_url();?>assets/js/jquery.mixitup.min.js"></script><script src="<?php echo base_url();?>"></script>
 <script src="<?php echo base_url();?>assets/js/testimonials.js"></script>
 <script src="<?php echo base_url();?>assets/js/waypoints.js"></script>
 
@@ -102,6 +102,8 @@ $(window).load(function(){
 <!-- LayerSlider script files -->
 <script src="<?php echo base_url();?>assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+
 <script>
 $(document).ready(function(){
 jQuery("#layerslider").layerSlider({
@@ -111,6 +113,77 @@ jQuery("#layerslider").layerSlider({
 	skin: 'fullwidth',
 	hoverPrevNext: true,
 	skinsPath: 'layerslider/skins/'
+});
+});
+</script>
+
+<script>
+$(window).load(function(){
+$(".our-causes").flexslider({
+animation: "slide",
+animationLoop: false,
+controlNav: true,
+  maxItems: 1,
+pausePlay: false,
+mousewheel:false,
+start: function(slider){
+  $("body").removeClass("loading");
+}
+});
+
+
+$(".slideshow").flexslider({
+animation: "fade",
+animationLoop: false,
+slideShow:false,
+controlNav: true,
+  maxItems: 1,
+pausePlay: false,
+mousewheel:false,
+start: function(slider){
+  $("body").removeClass("loading");
+}
+});
+
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(function() {
+  $("#carousel").carouFredSel({
+    responsive: true,
+    circular: false,
+    auto: false,
+    items: {
+      visible: 1,
+      width: 20,
+    },
+    scroll: {
+      fx: "directscroll"
+    }
+  });
+  $("#thumbs").carouFredSel({
+    responsive: true,
+    circular: false,
+    infinite: false,
+    auto: false,
+    prev: "#prev",
+    next: "#next",
+    items: {
+      visible: {
+        min: 1,
+        max: 6
+      },
+      width: 200,
+      height: "80%"
+    }
+  });
+  $("#thumbs a").click(function() {
+    $("#carousel").trigger("slideTo", "#" + this.href.split("#").pop() );
+    $("#thumbs a").removeClass("selected");
+    $(this).addClass("selected");
+    return false;
+  });
 });
 });
 </script>

@@ -16,7 +16,7 @@
 									education their own health care, including sexual wellness, development, and emotional health.</p>
 						</div><!-- Slide1 -->
 						<div class="ls-slide" data-ls="transition3d:12;timeshift:-1000;">
-							<img src="<?php echo base_url();?>assets/images/slider2.jpg" class="ls-bg" alt="Slide background">
+							<img src="<?php echo base_url();?>photos/dc1.jpg" class="ls-bg" alt="Slide background">
 								<h3 class="ls-l slide3" style="top:96px; left:50px; font-family: roboto; color: #FFFFFF; line-height:22px; font-size:32px; background:rgba(0,0,0,0.85); padding:18px 30px; border-radius:3px;" data-ls="offsetxin:0; scalexin:0; scaleyin:0; offsetxout:0; offsetyout:top; durationin:1500; durationout:800; showuntil:2000; fadeout:false;">
 										HELP <i>US</i> HELP GIRLS</h3>
 
@@ -81,13 +81,16 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="sec-heading4">
-					<h2>Our <span>Campaigns</span></h2>
+					<h2>Messages From<span>The Pastors</span></h2>
 					<p>Participate in one of the projects </p>
 				</div>
 				<div class="wide-project-carousel">
 					<ul class="slides">
 						<li class="wide-project">
 							<div class="row">
+								<div class="col-md-6">
+									<div class="wide-project-img"><img src="<?php echo base_url();?>photos/dc10.jpg" alt="" /></div>
+								</div>
 								<div class="col-md-6">
 									<div class="wide-project-detail">
 										<h2><a href="#" title="">Donate Sanitary Towels</a></h2>
@@ -97,13 +100,14 @@
 										<div class="project-contact"><i class="icon-phone"></i>  +254 (0) 724 439115</div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="wide-project-img"><img src="<?php echo base_url();?>assets/images/wide-projects1.jpg" alt="" /></div>
-								</div>
+
 							</div>
 						</li><!-- Wide Project -->
 						<li class="wide-project">
 							<div class="row">
+								<div class="col-md-6">
+									<div class="wide-project-img"><img src="<?php echo base_url();?>photos/dc9.jpg" alt="" /></div>
+								</div>
 								<div class="col-md-6">
 									<div class="wide-project-detail">
 										<h2><a href="#" title="">Donate Sanitary Towels</a></h2>
@@ -113,9 +117,7 @@
 										<div class="project-contact"><i class="icon-phone"></i> +254 (0) 724 439115</div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="wide-project-img"><img src="<?php echo base_url();?>assets/images/wide-projects2.jpg" alt="" /></div>
-								</div>
+
 							</div>
 						</li><!-- Wide Project -->
 					</ul>
@@ -127,55 +129,217 @@
 <section class="block">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9">
-				<div class="sec-heading4">
-					<h2>Educate One <span>Girl</span></h2>
-					<p>Protect one girl against FGM </p>
-				</div>
-				<div class="charity-causes">
-					<div class="row">
-					<?php foreach ($keepgirlinschool as $row):?>
-						<div class="col-md-4">
-							<div class="charity-cause">
-								<div class="charity-cause-img"><img src="<?php echo base_url();?>assets/images/<?php echo $row->keepimage;?>" alt="" /></div>
-								<div class="charity-cause-detail">
-									<h3><a href="#" title=""><?php echo $row->keeptitle;?></a></h3>
-									<p><?php echo word_limiter($row->keeparticle,10);?></p>
-									<div class="progress progress-striped active">
-										<div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 84%">
+		<div class="col-md-9">
+			<div class="sec-heading">
+				<h2><strong>Our</strong> Causes</h2>
+			</div><!-- Section Title -->
+			<div class="our-causes">
+					<ul class="slides">
+						<li>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="causes-image">
+										<img src="<?php echo base_url(); ?>photos/dc8.jpg" alt="thumb1" />
+										<div class="cause-heading">
+											<h3>Donate and give clean water</h3>
+											<p>We needed to collect: <span><i>$</i>29,000</span> </p>
+										</div>
+											<div class="our-causes-hover">
+												<h3>Feeding the Hungry</h3>
+												<span>in <i>South Africa</i></span>
+												<p>Duis accumsan rhosn cius arcvira orem bland it sit admet. Sedi ceel ugue. In idn iacues ante. Proi rien is mi gravida viverra.</p>
+												<span class="help"><strong>Help us</strong> to collect:</span>
+												<span class="needed-amount"><span>$</span>20,000 </span>
+											</div>
 									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="causes-image">
+										<img src="<?php echo base_url(); ?>photos/dc7.jpg" alt="thumb1" />
+										<div class="cause-heading">
+											<h3>Donate and give clean water</h3>
+											<p>We needed to collect: <span><i>$</i>29,000</span> </p>
+										</div>
+										<div class="our-causes-hover">
+											<h3>Feeding the Hungry</h3>
+											<span>in <i>South Africa</i></span>
+											<p>Duis accumsan rhosn cius arcvira orem bland it sit admet. Sedi ceel ugue. In idn iacues ante. Proi rien is mi gravida viverra.</p>
+											<span class="help"><strong>Help us</strong> to collect:</span>
+											<span class="needed-amount"><span>$</span>20,000 </span>
+										</div>
 									</div>
-									<span>Needed Donation <i><?php echo $row->keepamount;?></i></span>
 								</div>
-								<div class="cause-location">
-									<p>In <span><?php echo $row->keeplocation;?></span></p>
+								<div class="col-md-4">
+									<div class="causes-image">
+										<img src="<?php echo base_url(); ?>photos/dc3.jpg" alt="thumb1" />
+											<div class="cause-heading">
+												<h3>Supporting a day centre</h3>
+												<p>We needed to collect: <span><i>$</i>30,000</span> </p>
+											</div>
+										<div class="our-causes-hover">
+											<h3>Feeding the Hungry</h3>
+											<span>in <i>South Africa</i></span>
+											<p>Duis accumsan rhosn cius arcvira orem bland it sit admet. Sedi ceel ugue. In idn iacues ante. Proi rien is mi gravida viverra.</p>
+											<span class="help"><strong>Help us</strong> to collect:</span>
+											<span class="needed-amount"><span>$</span>20,000 </span>
+										</div>
+									</div>
 								</div>
-							</div><!-- Charity Cause -->
-						</div>
-					<?php endforeach; ?>
-					</div>
-				</div><!-- Charity Causes -->
-			</div>
-			<div class="col-md-3">
-				<div class="urgent-cause">
-					<img src="<?php echo base_url();?>assets/images/urgent-cause.jpg" alt="" />
-					<span><img src="<?php echo base_url();?>assets/images/speaker.png" alt="" /></span>
-					<h3>Our Upcoming <span>Cause</span></h3>
-					<h5>Sanitary Donation to Neema Uhai Home</h5>
-					<div class="progress progress-striped active">
-						<div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 87%">
-						</div>
-					</div>
-					<div class="urgent-progress">
-						<span>Needed Donation</span>
-						<i>87%</i>
-					</div>
-					<h6><span>120</span> People Donated</h6>
-					<strong><i>$</i>3400 / <i>$</i>6700</strong>
-					<a href="#" data-toggle="modal" data-target="#myModal2" title="">DONATE NOW</a>
-				</div><!-- Urgent Cause -->
-			</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="causes-image">
+										<img src="<?php echo base_url(); ?>photos/dc1.jpg" alt="thumb1" />
+										<div class="cause-heading">
+											<h3>Donate and give clean water</h3>
+											<p>We needed to collect: <span><i>$</i>29,000</span> </p>
+										</div>
+											<div class="our-causes-hover">
+												<h3>Feeding the Hungry</h3>
+												<span>in <i>South Africa</i></span>
+												<p>Duis accumsan rhosn cius arcvira orem bland it sit admet. Sedi ceel ugue. In idn iacues ante. Proi rien is mi gravida viverra.</p>
+												<span class="help"><strong>Help us</strong> to collect:</span>
+												<span class="needed-amount"><span>$</span>20,000 </span>
+											</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="causes-image">
+										<img src="<?php echo base_url(); ?>photos/dc2.jpg" alt="thumb1" />
+										<div class="cause-heading">
+											<h3>Donate and give clean water</h3>
+											<p>We needed to collect: <span><i>$</i>29,000</span> </p>
+										</div>
+										<div class="our-causes-hover">
+											<h3>Feeding the Hungry</h3>
+											<span>in <i>South Africa</i></span>
+											<p>Duis accumsan rhosn cius arcvira orem bland it sit admet. Sedi ceel ugue. In idn iacues ante. Proi rien is mi gravida viverra.</p>
+											<span class="help"><strong>Help us</strong> to collect:</span>
+											<span class="needed-amount"><span>$</span>20,000 </span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="causes-image">
+										<img src="<?php echo base_url(); ?>photos/dc3.jpg" alt="thumb1" />
+											<div class="cause-heading">
+												<h3>Supporting a day centre</h3>
+												<p>We needed to collect: <span><i>$</i>30,000</span> </p>
+											</div>
+										<div class="our-causes-hover">
+											<h3>Feeding the Hungry</h3>
+											<span>in <i>South Africa</i></span>
+											<p>Duis accumsan rhosn cius arcvira orem bland it sit admet. Sedi ceel ugue. In idn iacues ante. Proi rien is mi gravida viverra.</p>
+											<span class="help"><strong>Help us</strong> to collect:</span>
+											<span class="needed-amount"><span>$</span>20,000 </span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+			</div><!-- Causes -->
 		</div>
+
+		<div class="col-md-3">
+			<div class="sec-heading">
+				<h2><strong>Donate</strong> Us</h2>
+			</div>
+			<div class="donate-us-box">
+				<h5>Give Your Donations</h5>
+				<span>Donation Needed</span>
+				<span class="amount-figures"><strong>$</strong> 7,089,758!</span>
+				<span>Collection Donation</span>
+				<span class="amount-figures coloured"><strong>$</strong> 7,089,758!</span>
+				<span class="cell"><i class="icon-phone"></i>1 (123) 12345678</span>
+				<a  data-toggle="modal" data-target="#myModal"  class="donate-btn" title="">Donate Us</a>
+			</div><!-- Donate Us Box -->
+		</div>
+	</div>
+	</div>
+</section>
+<section class="block">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-12">
+			<div class="sec-title">
+				<h2>Our <span>Team</span></h2>
+			</div>
+			<div class="staff">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="staff-member">
+							<img src="<?php echo base_url(); ?>photos/dc7.jpg" alt="" />
+							<div class="member-intro">
+								<h3>Amanda Smith</h3>
+								<span>Web Designer</span>
+							</div>
+							<div class="social-contacts">
+								<ul>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc8.jpg" alt="" /></a></li>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc9.jpg" alt="" /></a></li>
+								</ul>
+							</div>
+						</div>
+					</div><!--Staff Member-->
+					<div class="col-md-3">
+						<div class="staff-member">
+							<img src="<?php echo base_url(); ?>photos/dc1.jpg" alt="" />
+							<div class="member-intro">
+								<h3>Amanda Smith</h3>
+								<span>Web Designer</span>
+							</div>
+							<div class="social-contacts">
+								<ul>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc7.jpg" alt="" /></a></li>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc6.jpg" alt="" /></a></li>
+								</ul>
+							</div>
+						</div>
+					</div><!--Staff Member-->
+					<div class="col-md-3">
+						<div class="staff-member">
+							<img src="<?php echo base_url(); ?>photos/dc4.jpg" alt="" />
+							<div class="member-intro">
+								<h3>Amanda Smith</h3>
+								<span>Web Designer</span>
+							</div>
+							<div class="social-contacts">
+								<ul>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc4.jpg" alt="" /></a></li>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc3.jpg" alt="" /></a></li>
+								</ul>
+							</div>
+						</div>
+					</div><!--Staff Member-->
+					<div class="col-md-3">
+						<div class="staff-member">
+							<img src="<?php echo base_url(); ?>photos/dc5.jpg" alt="" />
+							<div class="member-intro">
+								<h3>Amanda Smith</h3>
+								<span>Web Designer</span>
+							</div>
+							<div class="social-contacts">
+								<ul>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc5.jpg" alt="" /></a></li>
+									<li><a href="#" title=""><img src="<?php echo base_url(); ?>photos/dc10.jpg" alt="" /></a></li>
+								</ul>
+							</div>
+						</div>
+					</div><!--Staff Member-->
+				</div>
+			</div><!--Staff -->
+		</div>
+		</div>
+	</div>
+</section>
+<section class="block">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+			</div>
 	</div>
 </section>
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -210,71 +374,6 @@
 		</div>
 	</div>
 </div>
-
-<section class="block gray remove-top">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="upcoming-bar overlap">
-					<div class="row">
-						<div class="col-md-7">
-							<div class="abt-upcoming-event">
-								<span><img src="<?php echo base_url();?>assets/images/icon.png" alt="" /></span>
-								<h3>Charity Event In Hospital</h3>
-								<ul>
-									<li><a href="#" title=""><i class="icon-user"></i> By Asya</a></li>
-									<li><a href="#" title=""><i class="icon-calendar"></i> July 2, 2018</a></li>
-								</ul>
-							</div><!-- About Upcoming Event -->
-						</div>
-						<div class="col-md-5">
-							<div class="upcoming-counter">
-								<ul class="countdown">
-									<li><p class="days_ref">days</p><span class="days">00</span></li>
-									<li><p class="hours_ref">hours</p><span class="hours">00</span></li>
-									<li><p class="minutes_ref">minutes</p><span class="minutes">00</span></li>
-									<li><p class="seconds_ref">seconds</p><span class="seconds">00</span></li>
-								</ul>
-							</div><!-- Upcoming Event Countdown -->
-						</div>
-					</div>
-				</div><!-- Upcoming Bar Overlap -->
-			</div>
-		</div>
-	</div>
-</section>
-<section class="block gray remove-top">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="sec-heading4">
-					<h2>Read From <span> Our Blog</span></h2>
-					<p>Become informed about the cause of our girls today </p>
-				</div>
-				<div class="charity-events">
-					<div class="row">
-				<?php foreach ($posts as $row):?>
-						<div class="col-md-4">
-								<div class="charity-event">
-									<div class="charity-event-img">
-										<img src="<?php echo base_url();?>uploads/<?php echo $row->blog_image;?>" alt="" />
-										<a href="#" title="">Read More</a>
-									</div>
-									<div class="charity-event-detail">
-										<i><strong><?php echo $row->blog_date;?></strong>&emsp;<?php echo $row->blog_time;?></i>
-										<h3><a href="#" title=""><?php echo $row->blog_title;?></a></h3>
-										<span><i class="icon-map-marker"></i> <?php echo $row->blog_location;?></span>
-										<p><?php echo word_limiter($row->blog_content,10);?></p>
-									</div>
-								</div><!-- Charity Event -->
-						</div>
-					<?php endforeach; ?>
-					</div>
-				</div><!-- Charity Events -->
-			</div>
-		</div>
-	</div>
-</section>
 <section class="block">
 	<div class="container">
 		<div class="row">
