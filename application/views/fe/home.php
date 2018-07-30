@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div id="layerslider-container-fw">
-					<div id="layerslider" style="width: 100%; height: 540px; margin: 0px auto; ">
+					<div id="layerslider" style="width: 100%; height: 440px; ">
 
 						<div class="ls-slide" data-ls="transition3d:53; timeshift:-1000;">
 							<img src="<?php echo base_url();?>photos/church1.jpg" class="ls-bg" alt="Slide background">
@@ -15,7 +15,7 @@
 									education their own health care, including sexual wellness, development, and emotional health.</p>-->
 						</div><!-- Slide1 -->
 						<div class="ls-slide" data-ls="transition3d:12;timeshift:-1000;">
-							<img src="<?php echo base_url();?>photos/church2.jpg" class="ls-bg" alt="Slide background">
+							<img src="<?php echo base_url();?>photos/church3.jpg" class="ls-bg" alt="Slide background">
 								<!--<h3 class="ls-l slide3" style="top:96px; left:50px; font-family: roboto; color: #FFFFFF; line-height:22px; font-size:32px; background:rgba(0,0,0,0.85); padding:18px 30px; border-radius:3px;" data-ls="offsetxin:0; scalexin:0; scaleyin:0; offsetxout:0; offsetyout:top; durationin:1500; durationout:800; showuntil:2000; fadeout:false;">
 										HELP <i>US</i> HELP GIRLS</h3>
 
@@ -26,7 +26,7 @@
 										Come One <span> Come All</span></h5>
 						</div><!-- Slide2 -->
 						<div class="ls-slide" data-ls="transition3d:12;timeshift:-1000;">
-							<img src="<?php echo base_url();?>photos/church3.jpg" class="ls-bg" alt="Slide background">
+							<img src="<?php echo base_url();?>photos/church2.jpg" class="ls-bg" alt="Slide background">
 								<!--<h3 class="ls-l slide3" style="top:96px; left:50px; font-family: roboto; color: #FFFFFF; line-height:22px; font-size:32px; background:rgba(0,0,0,0.85); padding:18px 30px; border-radius:3px;" data-ls="offsetxin:0; scalexin:0; scaleyin:0; offsetxout:0; offsetyout:top; durationin:1500; durationout:800; showuntil:2000; fadeout:false;">
 										HELP <i>US</i> HELP GIRLS</h3>
 
@@ -259,6 +259,7 @@
 
 
 <section class="block">
+		<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="photography-single">
@@ -286,6 +287,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 </section>
 
 <section class="block gray">
@@ -296,6 +298,7 @@
 					<h2>Our <span>Sermon</span></h2>
 				</div>
 				<div class="remove-ext">
+				    	<div class="container">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="recent-news">

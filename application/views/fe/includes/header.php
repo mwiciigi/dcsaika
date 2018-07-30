@@ -201,7 +201,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<div class="theme-layout">
+<div class="theme-layout boxed">
 <div id="top-bar" class="modern">
 	<div class="container">
 		<ul>
@@ -270,7 +270,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
-	<!--<div class="responsive-logomenu logo">
+	<div class="responsive-logomenu logo">
 		<div class="container">
 			<a href="index.html" title=""><img src="<?php echo base_url();?>photos/logo.png" width="63px" alt="Logo" /><h1>D<i></i>c-Saika</h1></a>
 			<span class="menu-btn"><i class="fa fa-th-list"></i></span>
@@ -285,6 +285,6 @@ $(document).ready(function(){
 			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Blog</a></li>
 			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Gallery</a></li>
 			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Contact Us</a></li>
-	</div>-->
+	</div>
 	<button class="responsive-donate">Donate Now</button>
 </div><!--Responsive header-->
