@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TPA</title>
+<title>DcSaika</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Lato|Nunito" rel="stylesheet"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -39,7 +39,7 @@
 <script src="<?php echo base_url();?>assets/js/jquery.customSelect.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/jquery.isotope.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/jquery.jigowatt.js"></script>
-<script src="<?php echo base_url();?>assets/js/jquery.mixitup.min.js"></script>]<script src="<?php echo base_url();?>"></script>
+<script src="<?php echo base_url();?>assets/js/jquery.mixitup.min.js"></script><script src="<?php echo base_url();?>"></script>
 <script src="<?php echo base_url();?>assets/js/testimonials.js"></script>
 <script src="<?php echo base_url();?>assets/js/waypoints.js"></script>
 
@@ -102,6 +102,8 @@ $(window).load(function(){
 <!-- LayerSlider script files -->
 <script src="<?php echo base_url();?>assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+
+
 <script>
 $(document).ready(function(){
 jQuery("#layerslider").layerSlider({
@@ -114,6 +116,89 @@ jQuery("#layerslider").layerSlider({
 });
 });
 </script>
+
+<script>
+$(window).load(function(){
+$(".our-causes").flexslider({
+animation: "slide",
+animationLoop: false,
+controlNav: true,
+  maxItems: 1,
+pausePlay: false,
+mousewheel:false,
+start: function(slider){
+  $("body").removeClass("loading");
+}
+});
+
+
+$(".slideshow").flexslider({
+animation: "fade",
+animationLoop: false,
+slideShow:false,
+controlNav: true,
+  maxItems: 1,
+pausePlay: false,
+mousewheel:false,
+start: function(slider){
+  $("body").removeClass("loading");
+}
+});
+
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$(function() {
+  $("#carousel").carouFredSel({
+    responsive: true,
+    circular: false,
+    auto: false,
+    items: {
+      visible: 1,
+      width: 20,
+    },
+    scroll: {
+      fx: "directscroll"
+    }
+  });
+  $("#thumbs").carouFredSel({
+    responsive: true,
+    circular: false,
+    infinite: false,
+    auto: false,
+    prev: "#prev",
+    next: "#next",
+    items: {
+      visible: {
+        min: 1,
+        max: 6
+      },
+      width: 200,
+      height: "80%"
+    }
+  });
+  $("#thumbs a").click(function() {
+    $("#carousel").trigger("slideTo", "#" + this.href.split("#").pop() );
+    $("#thumbs a").removeClass("selected");
+    $(this).addClass("selected");
+    return false;
+  });
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+	$('.single-video > a').on('click',function(){
+		$('.single-video').addClass('play-video');
+		return false;
+	});
+	$('.video-closebtn').on('click',function(){
+		$('.single-video').removeClass('play-video');
+		return false;
+	});
+});
+</script>
 </head>
 <body>
 <div class="theme-layout">
@@ -122,15 +207,15 @@ jQuery("#layerslider").layerSlider({
 		<ul>
 			<li>
 				<i class="fa fa-home"></i>
-				P.o Box 102034-00101
+				P.o Box 7777
 			</li>
 			<li>
 				<i class="fa fa-phone"></i>
-				+254 (0) 724 439115
+				+254 (0) 725638360
 			</li>
 			<li>
 				<i class="fa fa-envelope"></i>
-				teenpregnancyawareness.com
+				info@dcsaika.com
 			</li>
 		</ul>
 		<div class="header-social">
@@ -153,11 +238,11 @@ jQuery("#layerslider").layerSlider({
 		<nav class="menu">
 			<ul id="menu-navigation">
 					<li class="active"><a href="<?php echo base_url();?>home">Home</a></li>
-					<li><a href="<?php echo base_url();?>about">About</a></li>
-					<li><a href="<?php echo base_url();?>projectlist">Projects</a></li>
-					<li><a href="<?php echo base_url();?>blog">Blog</a></li>
-					<li><a href="<?php echo base_url();?>gallery">Gallery</a></li>
-					<li><a href="<?php echo base_url();?>contact">Contact Us</a></li>
+					<li><a href="javascript:void(0)">About</a></li>
+					<!-- <li><a href="<?php echo base_url();?>projectlist">Projects</a></li> -->
+					<li><a href="javascript:void(0)">Blog</a></li>
+					<li><a href="javascript:void(0)">Gallery</a></li>
+					<li><a href="javascript:void(0)">Contact Us</a></li>
 					</ul><!-- Drop Down -->
 				</li>
 			</ul>
@@ -185,7 +270,7 @@ jQuery("#layerslider").layerSlider({
 			</div>
 		</div>
 	</div>
-	<div class="responsive-logomenu logo">
+	<!--<div class="responsive-logomenu logo">
 		<div class="container">
 			<a href="index.html" title=""><img src="<?php echo base_url();?>photos/logo.png" width="63px" alt="Logo" /><h1>D<i></i>c-Saika</h1></a>
 			<span class="menu-btn"><i class="fa fa-th-list"></i></span>
@@ -196,10 +281,10 @@ jQuery("#layerslider").layerSlider({
 		<ul>
 			<li class="has-dropdown"><a href="home" title="">Home</a></li>
 			<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>About</a></li>
-			<li><a href="<?php echo base_url();?>project"><i class="icon-circle"></i>Projects</a></li>
-			<li><a href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
-			<li><a href="<?php echo base_url();?>gallery"><i class="icon-circle"></i>Gallery</a></li>
-			<li><a href="<?php echo base_url();?>contact"><i class="icon-circle"></i>Contact Us</a></li>
-	</div>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Projects</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Blog</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Gallery</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Contact Us</a></li>
+	</div>-->
 	<button class="responsive-donate">Donate Now</button>
 </div><!--Responsive header-->
