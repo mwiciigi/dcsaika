@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>TPA</title>
+<title>DcSaika</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Lato|Nunito" rel="stylesheet"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -187,6 +187,18 @@ $(function() {
 });
 });
 </script>
+<script>
+$(document).ready(function(){
+	$('.single-video > a').on('click',function(){
+		$('.single-video').addClass('play-video');
+		return false;
+	});
+	$('.video-closebtn').on('click',function(){
+		$('.single-video').removeClass('play-video');
+		return false;
+	});
+});
+</script>
 </head>
 <body>
 <div class="theme-layout">
@@ -195,15 +207,15 @@ $(function() {
 		<ul>
 			<li>
 				<i class="fa fa-home"></i>
-				P.o Box 102034-00101
+				P.o Box 7777
 			</li>
 			<li>
 				<i class="fa fa-phone"></i>
-				+254 (0) 724 439115
+				+254 (0) 725638360
 			</li>
 			<li>
 				<i class="fa fa-envelope"></i>
-				teenpregnancyawareness.com
+				info@dcsaika.com
 			</li>
 		</ul>
 		<div class="header-social">
@@ -226,11 +238,11 @@ $(function() {
 		<nav class="menu">
 			<ul id="menu-navigation">
 					<li class="active"><a href="<?php echo base_url();?>home">Home</a></li>
-					<li><a href="<?php echo base_url();?>about">About</a></li>
-					<li><a href="<?php echo base_url();?>projectlist">Projects</a></li>
-					<li><a href="<?php echo base_url();?>blog">Blog</a></li>
-					<li><a href="<?php echo base_url();?>gallery">Gallery</a></li>
-					<li><a href="<?php echo base_url();?>contact">Contact Us</a></li>
+					<li><a href="javascript:void(0)">About</a></li>
+					<!-- <li><a href="<?php echo base_url();?>projectlist">Projects</a></li> -->
+					<li><a href="javascript:void(0)">Blog</a></li>
+					<li><a href="javascript:void(0)">Gallery</a></li>
+					<li><a href="javascript:void(0)">Contact Us</a></li>
 					</ul><!-- Drop Down -->
 				</li>
 			</ul>
@@ -258,7 +270,7 @@ $(function() {
 			</div>
 		</div>
 	</div>
-	<div class="responsive-logomenu logo">
+	<!--<div class="responsive-logomenu logo">
 		<div class="container">
 			<a href="index.html" title=""><img src="<?php echo base_url();?>photos/logo.png" width="63px" alt="Logo" /><h1>D<i></i>c-Saika</h1></a>
 			<span class="menu-btn"><i class="fa fa-th-list"></i></span>
@@ -269,10 +281,10 @@ $(function() {
 		<ul>
 			<li class="has-dropdown"><a href="home" title="">Home</a></li>
 			<li><a href="<?php echo base_url();?>"><i class="icon-circle"></i>About</a></li>
-			<li><a href="<?php echo base_url();?>project"><i class="icon-circle"></i>Projects</a></li>
-			<li><a href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
-			<li><a href="<?php echo base_url();?>gallery"><i class="icon-circle"></i>Gallery</a></li>
-			<li><a href="<?php echo base_url();?>contact"><i class="icon-circle"></i>Contact Us</a></li>
-	</div>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Projects</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Blog</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Gallery</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Contact Us</a></li>
+	</div>-->
 	<button class="responsive-donate">Donate Now</button>
 </div><!--Responsive header-->

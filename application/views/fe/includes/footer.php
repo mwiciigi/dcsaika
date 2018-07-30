@@ -10,26 +10,20 @@
 					<ul class="slides">
 						<li>
 							<div class="review">
-								<i>T</i><p><span>pa</span> Initiative was started in 2016 and reaches out to more than 1500 girls yearly as it seeks to
-									empower young girls through mentorships, guidance and counseling and to see girls attend
-									school with little or no disturbances brought forth by normal body functions through provision of
-									sanitary towels.</p>
+								<i>E</i><p><span>ncourage one another</span> in the Lord.God commanded that His people encourage each other because He knew we would need it. Jesus warned that “in the world you will have tribulation…” which He followed with much needed encouragement, “but take heart; I have overcome the world” John 16:33</p>
 							</div>
 							<div class="from">
-								<h6>Asya</h6>
-								<span>CE0, Nairobi</span>
+								<h6>Rev Owen</h6>
+								<span>Senior Pastor, Dc Saika</span>
 							</div>
 						</li>
 						<li>
 							<div class="review">
-								<i>W</i><p><span>e</span> are striving to develop meaningful partnerships to enhance a sustained capacity to collect;
-									purchase and distribute sanitary towels to young needy girls in informal settlements, primary and
-									high schools and children homes, whilst equipping them with life skills that prepare them to
-									participate in life processes with dignity and respect. </p>
+								<i>B</i><p><span>e Encouraged</span> When encouragement is absent from the life of a church people will feel unloved, unimportant, useless, and forgotten. God knows His people are in need of grace-filled reminders, which is why He calls us to encourage each other every day until His Son returns Hebrews 3:13.</p>
 							</div>
 							<div class="from">
-								<h6>Joyce</h6>
-								<span>Secretary</span>
+								<h6>Mrs Owen</h6>
+								<span>pastor's Wife</span>
 							</div>
 						</li>
 					</ul>
@@ -40,15 +34,15 @@
 					<h4><strong><span>F</span>lickr</strong> Feed</h4>
 				</div>
 				<div class="flickr-images">
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr1.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr2.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr3.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr4.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr5.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr6.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr7.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr8.jpg" alt="" /></a>
-					<a href="#" title=""><img src="<?php echo base_url();?>assets/images/flickr9.jpg" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc1.jpg" height="30%" width="100%" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc2.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc3.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc4.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc5.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc6.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc8.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc9.jpg" height="100px" alt="" /></a>
+					<a href="#" title=""><img src="<?php echo base_url();?>photos/dc10.jpg" height="100px" alt="" /></a>
 				</div>
 			</div><!-- Flickr Widget -->
 			<div class="col-md-3">
@@ -58,19 +52,19 @@
 				<ul class="contact-details">
 					<li>
 						<span><i class="icon-home"></i>ADDRESS</span>
-						<p>P.o Box 102034-00101, Nairobi Kenya</p>
+						<p>P.o Box 00101, Nairobi Kenya</p>
 					</li>
 					<li>
 						<span><i class="icon-phone-sign"></i>PHONE NO</span>
-						<p>+254 (0) 724 439115</p>
+						<p>+254 (0) 725638360</p>
 					</li>
 					<li>
 						<span><i class="icon-envelope-alt"></i>EMAIL ID</span>
-						<p>teenpregnancyawarenesske@gmail.com</p>
+						<p>dcsaika@gmail.org</p>
 					</li>
 					<li>
 						<span><i class="icon-link"></i>WEB ADDRESS</span>
-						<p>http://www.teenpregnancyawareness.com</p>
+						<p>http://www.dcsaika.org</p>
 					</li>
 				</ul>
 			</div><!-- Contact Us Widget -->
@@ -96,14 +90,14 @@
 </footer><!-- Footer -->
 <div class="footer-bottom">
 	<div class="container">
-		<p>Copyright © 2013 Global News. <span>All rights reserved.</span> </p>
+		<p>Copyright © 2018. Powered by <a href="https://hypertechsolutions.co.ke"> Hypertech Solutions</a> <span>All rights reserved.</span> </p>
 		<ul>
 			<li><a href="home"<i class="icon-circle"></i>Home</a></li>
-			<li><a href="<?php echo base_url();?>about"><i class="icon-circle"></i>About</a></li>
-			<li><a href="<?php echo base_url();?>projectlist"><i class="icon-circle"></i>Projects</a></li>
-			<li><a href="<?php echo base_url();?>blog"><i class="icon-circle"></i>Blog</a></li>
-			<li><a href="<?php echo base_url();?>gallery"><i class="icon-circle"></i>Gallery</a></li>
-			<li><a href="<?php echo base_url();?>contact"><i class="icon-circle"></i>Contact Us</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>About</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Projects</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Blog</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Gallery</a></li>
+			<li><a href="javascript:void(0)"><i class="icon-circle"></i>Contact Us</a></li>
 		</ul>
 
 	</div>
